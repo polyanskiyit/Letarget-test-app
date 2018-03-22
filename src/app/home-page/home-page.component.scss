@@ -1,0 +1,274 @@
+// nav
+
+.navbar__block{
+    padding-top: 3%;
+    width: 100%;
+    background-color: rgb(159, 183, 230);
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+}
+.navbar{
+    padding: 0;
+}
+
+.navbar__context{
+    margin-left: 40%;
+}
+
+.navbar-nav .nav-link{
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-nav .nav-link:focus{
+    color: #fff;
+}
+.dropdown-menu{
+    background-color: rgb(159, 183, 230);
+    opacity: 0.9;
+}
+.right-green-border{
+    border-right: 2px solid green;
+}
+.navbarDropdownMedication___title___item{
+    font-weight: 700;
+    padding: 1% 1%;
+}
+.navbarDropdownMedication___item{
+    padding: 1% 2%;
+}
+
+// (end) nav
+
+
+
+// slider
+
+.slider__img{
+    width: 100%;
+    height: 400px;
+}
+.slider__item-text{
+    width: 25%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color: #fff;
+}
+.slider__item-text__title{
+    margin-bottom: 6%;
+}
+
+
+// room-reservation-form
+.room-reservation-form_block{
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    opacity: 0.8;
+}
+.room-reservation-form__title{
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+    color: #fff;
+}
+.room-reservation-form{
+    width: 94%;
+    margin: 2% 3%;
+    display: flex;
+    flex-direction: row;
+}
+.room-reservation-form *{
+    margin: 0 1%;
+}
+.sendFromReservationBtn{
+    width: 60%;
+}
+// (end) room-reservation-form
+
+// (end) slider
+
+
+
+//  description
+
+.description__block{
+    margin: 15% 0;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(74, 180, 74);
+    color: #fff;
+}
+.description___context{
+    width: 30%;
+    margin: 10%;
+    padding-top: 2%;
+    font-size: 12px;
+}
+.description___context__first_p{
+    margin-bottom: 2%;
+}
+.learn-more-btn{
+    color: #fff;
+    border-color: #fff;
+    margin-left: 40%;
+}
+.description-img-1{
+    width: 750px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+.description-img-2{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    right: 25%;
+    top: 90%;
+}
+
+//  (end) description
+
+// why choose us
+.why-choose-us__block{
+    width: 80%;
+    margin: 0 10%;
+}
+.why-choose-us___context{
+    display: flex;
+    flex-direction: row;
+}
+.why-choose-us___description__context{
+    width: 40%;
+    margin-left: 10%;
+}
+.why-choose-us___item-img{
+    width: 75px;
+    height: 105px;
+    padding: 15px;
+}
+.why-choose-us___item-text{
+    padding-left: 10%;
+    font-size: 14px;
+}
+.why-choose-us___description-title{
+    margin-left: 10%;
+    color: gray;
+}
+.hotel-img{
+    fill: green;
+}
+.hotel-img__first_rate{
+    margin-top: -12%;
+    margin-left: 1%;
+    width: 50px;
+    position: absolute;
+}
+// (end) why choose us
+
+
+
+// gallery 
+
+.gallery__block{
+    widows: 90%;
+    margin: 6%;
+}
+.gallery___item{
+    width: 28%;
+    margin: 2%;
+    height: 300px;
+    background-color: fuchsia;
+    display: flex;
+    vertical-align:bottom;
+    float: left;
+}
+.gallery___item___description{
+    width: 15%;
+    height: 140px;
+    background-color: green;
+    position: absolute;
+    margin-top: 11.2%;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery___item___description>span{
+    padding-top: 40px;
+    display: block;
+}
+
+// (end) gallery
+
+
+// what is interesting in cosiv
+
+.what-is-interesting__block{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+.what-is-interesting___context{
+    margin: 4% 10%;
+    width: 80%;
+    color: #fff;
+}
+.what-is-interesting___context header{
+    margin-bottom: 5%;
+}
+.what-is-interesting___context p{
+    font-size: 12px;
+}
+
+// (end) what is interesting in cosiv
+
+// footer
+
+.footer{
+    width: 100%;
+    float: left;
+}
+.footer__context{
+    width: 80%;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.contacts{
+    width: 60%;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.contacts *{
+    display: block;
+}
+.footer__links{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 10%;
+    flex-direction: column;
+}
+.footer__links *{
+    display: block;
+    color: green;
+    margin: 6% 0;
+}
+.footer__start-rest-btn{
+    width: 30%;
+    height: 50px;
+    margin: 0 5%;
+    margin-top: 4%;
+}
+
+// (end) footer

@@ -1,0 +1,344 @@
+<!-- nav  -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse navbar__block" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto navbar__context">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Головна</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Про нас</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMedication" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Лікування
+        </a>
+        <div class="dropdown-menu" id="navbarDropdownMedication">
+          <table>
+            <tbody>
+              <tr>
+                <td class="navbarDropdownMedication___title___item">Види лікування</td>
+                <td></td>
+                <td class="navbarDropdownMedication___title___item">Додаткові послуги</td>
+              </tr>
+              <tr>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">ipsum</a>
+                </td>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">consectetur</a>
+                </td>
+                <td class="navbarDropdownMedication___item">
+                  <a href="">dolor sit amet</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">Lorem</a>
+                </td>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">adipisicing</a>
+                </td>
+                <td class="navbarDropdownMedication___item">
+                  <a href="">dolor sit amet</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">consectetur</a>
+                </td>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">ipsum</a>
+                </td>
+                <td class="navbarDropdownMedication___item">
+                  <a href="">Lorem </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">________________________</a>
+                </td>
+                <td class="right-green-border navbarDropdownMedication___item">
+                  <a href="">________________________</a>
+                </td>
+                <td class="navbarDropdownMedication___item">
+                  <a href="">________________________</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Галерея</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Розваги</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Номери</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакти</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- (end) nav  -->
+
+<!-- slider -->
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+  <ul class="carousel-indicators">
+    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+  </ul>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid slider__img" src="assets/img/2.jpg" alt="First slide">
+      <div class="slider__item-text">
+        <div class="slider__item-text__title">
+          <h2>Санаторій карпатські зорі</h2>
+        </div>
+        <div>
+          <h4>найкращий спосіб оздоровити своє тіло</h4>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid slider__img" src="assets/img/5.png" alt="Second slide">
+      <div class="slider__item-text">
+        <div class="slider__item-text__title">
+          <h2>Санаторій карпатські зорі</h2>
+        </div>
+        <div>
+          <h4>найкращий спосіб оздоровити своє тіло</h4>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid slider__img" src="assets/img/8.jpg" alt="Third slide">
+      <div class="slider__item-text">
+        <div class="slider__item-text__title">
+          <h2>Санаторій карпатські зорі</h2>
+        </div>
+        <div>
+          <h4>найкращий спосіб оздоровити своє тіло</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="room-reservation-form_block">
+  <header class="room-reservation-form__title">
+    <h3>Забронювати номер зараз</h3>
+  </header>
+  <form class="room-reservation-form">
+    <input class="form-control" type="text" placeholder="Ім'я">
+    <input class="form-control" type="text" placeholder="Телефон">
+    <input class="form-control" type="date" data-icon="assets/img/8.jpg" placeholder="Дата заїзду">
+    <input class="form-control" type="date" placeholder="Дата виїзду">
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    <input class="btn btn-success sendFromReservationBtn" type="button" value="Надіслати">
+  </form>
+</div>
+
+<!-- (end) slider -->
+
+<!-- description -->
+
+<div class="description__block">
+  <div class="description___context">
+    <div class="description___context__first_p">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus.</p>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus, quo nulla sapiente tenetur nostrum odio
+        la borum quae dignissimos accusantium eligendi obcaecati aspernatur! Volupt as voluptatem nemo provident aliquam
+        sed dicta.
+      </p>
+    </div>
+    <input type="button" class="btn btn-outline-success learn-more-btn" value="Дізнатись більше">
+  </div>
+
+  <img class="description-img-1" src="assets/img/5.png" alt="img">
+  <img class="description-img-2" src="assets/img/2.jpg" alt="img">
+</div>
+
+<!-- (end) description -->
+
+<!-- why choose us -->
+
+<div class="why-choose-us__block">
+  <div class="why-choose-us__title">
+    <h2>Чому варто обирати нас</h2>
+  </div>
+
+  <div class="why-choose-us___context">
+
+    <div>
+      <table>
+        <tbody>
+          <tr>
+            <td class="why-choose-us___item-img hotel-img">
+              <img src="assets/svg/003-hotel.svg">
+            </td>
+            <td class="why-choose-us___item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          </tr>
+          <tr>
+            <td class="why-choose-us___item-img">
+              <img src="assets/svg/004-plant.svg">
+            </td>
+            <td class="why-choose-us___item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          </tr>
+          <tr>
+            <td class="why-choose-us___item-img">
+              <img src="assets/svg/002-mountain.svg">
+            </td>
+            <td class="why-choose-us___item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          </tr>
+          <tr>
+            <td class="why-choose-us___item-img">
+              <img src="assets/svg/001-hot.svg">
+            </td>
+            <td class="why-choose-us___item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="why-choose-us___description__context">
+
+      <h1 class="why-choose-us___description-title">01</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nemo unde adipisci dignissimos. Adipisci enim molestiae
+        omnis debitis ipsum optio commodi mollitia unde eum aspernatur illum maxime, consectetur quia sint?
+      </p>
+
+      <img class="hotel-img__first_rate" src="assets/svg/003-hotel.svg" alt="img">
+
+    </div>
+
+  </div>
+
+
+</div>
+
+<!-- (end) why choose us -->
+
+<!-- gallery -->
+
+<div class="gallery__block">
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+  <div class="gallery___item">
+    <div class="gallery___item___description">
+      <span>lorem jjsd</span>
+    </div>
+  </div>
+</div>
+
+<!-- (end) gallery -->
+
+
+<!-- what is interesting in cosiv -->
+
+<div class="what-is-interesting__block">
+  <div class="what-is-interesting___context">
+    <header>
+      <h2>Цим цікавий Косів?</h2>
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odit, doloremque perspiciatis ab nihil pariatur
+      itaque distin ctio! Repellendus mollitia quae alias exercitationem? Aperiam expedita voluptate sol uta asperiores architecto
+      quaerat ducimus. Lorem ipsum dolor sit amet consectetur adipisicing eli t. Ad modi, suscipit incidunt aliquid saepe
+      sint assumenda rem autem magnam nihil quidem, providen t tempore nam iusto in quis ipsum totam. Quam!</p>
+  </div>
+</div>
+
+<!-- (end) what is interesting in cosiv -->
+
+<!-- footer -->
+
+<footer class="footer">
+  <div class="footer__context">
+    <div class="contacts">
+      <h3>Lviv</h3>
+      <span>000 000 00 00</span>
+      <span>000 000 00 00</span>
+      <span>000 000 00 00</span>
+      <span>000 000 00 00</span>
+      <p>pol@gmail.com</p>
+    </div>
+    <div class="footer__links">
+      <a href="">Головна</a>
+      <a href="">Про нас</a>
+      <a href="">Лікування</a>
+    </div>
+    <div class="footer__links">
+      <a href="">Галерея</a>
+      <a href="">Розваги</a>
+      <a href="">Номери</a>
+      <a href="">Контакти</a>
+    </div>
+    <input type="button" class="btn btn-outline-success btn-lg footer__start-rest-btn" value="Почати відпочинок">
+  </div>
+</footer>
+
+<!-- (end) footer -->
