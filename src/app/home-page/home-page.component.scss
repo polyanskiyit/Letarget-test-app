@@ -1,10 +1,9 @@
 // nav
 
 .navbar__block{
-    padding-top: 3%;
+    padding-top: 1%;
     width: 100%;
-    background-color: rgb(159, 183, 230);
-    position: fixed;
+    background-color: #8db9de;
     z-index: 1;
     opacity: 0.9;
 }
@@ -29,18 +28,27 @@
     color: #fff;
 }
 .dropdown-menu{
-    background-color: rgb(159, 183, 230);
-    opacity: 0.9;
+    background-color: #8db9de;
 }
 .right-green-border{
     border-right: 2px solid green;
 }
 .navbarDropdownMedication___title___item{
+    min-width: 170px;
     font-weight: 700;
     padding: 1% 1%;
 }
+
 .navbarDropdownMedication___item{
     padding: 1% 2%;
+}
+
+.navbarDropdownMedication___item a{
+    color: #000;
+    text-decoration: none;
+}
+.navbarDropdownMedication___item a:hover{
+    color: #fff;
 }
 
 // (end) nav
@@ -51,7 +59,7 @@
 
 .slider__img{
     width: 100%;
-    height: 400px;
+    height: 700px;
 }
 .slider__item-text{
     width: 25%;
@@ -67,10 +75,10 @@
 
 // room-reservation-form
 .room-reservation-form_block{
+    margin-top: -15%;
     position: absolute;
-    top: 27%;
     width: 100%;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .room-reservation-form__title{
     width: 100%;
@@ -90,6 +98,35 @@
 .sendFromReservationBtn{
     width: 60%;
 }
+
+@media only screen and (max-width: 1100px) {
+    .room-reservation-form_block{
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #carouselExampleControls{
+        background-color: #000;
+        padding-bottom: 200px;
+    }
+
+    .room-reservation-form_block{
+        margin-top: -50%;
+    }
+
+    .room-reservation-form{
+        margin: 2%;
+        margin-left: 3%;
+        flex-direction: column;
+    }
+
+    .room-reservation-form *{
+        width: 96%;
+        margin: 2%;
+    }
+}
+
 // (end) room-reservation-form
 
 // (end) slider
@@ -101,9 +138,9 @@
 .description__block{
     margin: 15% 0;
     width: 100%;
-    height: 350px;
     background-color: rgb(74, 180, 74);
     color: #fff;
+    padding-bottom: 50px;
 }
 .description___context{
     width: 30%;
@@ -119,19 +156,32 @@
     border-color: #fff;
     margin-left: 40%;
 }
+
+@media only screen and (max-width: 800px) {
+    .description___context{
+        font-size: 10px;
+    }
+
+    .learn-more-btn{
+        margin-left: 0;
+        font-size: 8px;
+        width: 100%;
+    }
+}
+
 .description-img-1{
-    width: 750px;
+    width: 50%;
     height: 300px;
     position: absolute;
     right: 0;
-    top: 60%;
+    margin-top: -400px;
 }
 .description-img-2{
-    width: 500px;
+    width: 40%;
     height: 350px;
     position: absolute;
-    right: 25%;
-    top: 90%;
+    margin-left: 45%;
+    margin-top: -250px;
 }
 
 //  (end) description
@@ -166,8 +216,7 @@
     fill: green;
 }
 .hotel-img__first_rate{
-    margin-top: -12%;
-    margin-left: 1%;
+    margin-left: -40px;
     width: 50px;
     position: absolute;
 }
@@ -189,6 +238,12 @@
     display: flex;
     vertical-align:bottom;
     float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .gallery___item{
+        width: 98%;
+    }
 }
 .gallery___item___description{
     width: 15%;
@@ -243,6 +298,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .contacts{
     width: 60%;
     flex-direction: column;
@@ -269,6 +325,28 @@
     height: 50px;
     margin: 0 5%;
     margin-top: 4%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .footer__context{
+        flex-direction: column;
+    }
+
+    .contacts{
+        width: 100%;
+        text-align: center;
+    }
+    .footer__links{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .footer__start-rest-btn{
+        width: 100%;
+        margin: 0;
+    }
 }
 
 // (end) footer

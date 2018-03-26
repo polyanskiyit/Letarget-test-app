@@ -1,13 +1,12 @@
 <!-- nav  -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light navbar__block">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <a class="navbar-brand" href="#">Navbar</a>
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse navbar__block" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto navbar__context">
       <li class="nav-item">
         <a class="nav-link" href="#">Головна</a>
@@ -24,7 +23,7 @@
             <tbody>
               <tr>
                 <td class="navbarDropdownMedication___title___item">Види лікування</td>
-                <td></td>
+                <td class="navbarDropdownMedication___title___item"></td>
                 <td class="navbarDropdownMedication___title___item">Додаткові послуги</td>
               </tr>
               <tr>
@@ -58,17 +57,6 @@
                 </td>
                 <td class="navbarDropdownMedication___item">
                   <a href="">Lorem </a>
-                </td>
-              </tr>
-              <tr>
-                <td class="right-green-border navbarDropdownMedication___item">
-                  <a href="">________________________</a>
-                </td>
-                <td class="right-green-border navbarDropdownMedication___item">
-                  <a href="">________________________</a>
-                </td>
-                <td class="navbarDropdownMedication___item">
-                  <a href="">________________________</a>
                 </td>
               </tr>
             </tbody>
@@ -140,25 +128,29 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="room-reservation-form_block">
-  <header class="room-reservation-form__title">
-    <h3>Забронювати номер зараз</h3>
-  </header>
-  <form class="room-reservation-form">
-    <input class="form-control" type="text" placeholder="Ім'я">
-    <input class="form-control" type="text" placeholder="Телефон">
-    <input class="form-control" type="date" data-icon="assets/img/8.jpg" placeholder="Дата заїзду">
-    <input class="form-control" type="date" placeholder="Дата виїзду">
-    <select>
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
-    </select>
-    <input class="btn btn-success sendFromReservationBtn" type="button" value="Надіслати">
-  </form>
+
+  <!-- reservation-form -->
+  <div class="room-reservation-form_block">
+    <header class="room-reservation-form__title">
+      <h3>Забронювати номер зараз</h3>
+    </header>
+    <form class="room-reservation-form">
+      <input class="form-control" type="text" placeholder="Ім'я">
+      <input class="form-control" type="text" placeholder="Телефон">
+      <input class="form-control" type="date" data-icon="assets/img/8.jpg" placeholder="Дата заїзду">
+      <input class="form-control" type="date" placeholder="Дата виїзду">
+      <select style="min-width: 100px;">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input class="btn btn-success sendFromReservationBtn" type="button" value="Надіслати">
+    </form>
+  </div>
+  <!-- (end) reservation-form -->
+
 </div>
 
 <!-- (end) slider -->
@@ -227,13 +219,13 @@
 
     <div class="why-choose-us___description__context">
 
-      <h1 class="why-choose-us___description-title">01</h1>
+      <h1 class="why-choose-us___description-title">
+        <img class="hotel-img__first_rate" src="assets/svg/003-hotel.svg" alt="img">
+        <span>01</span>
+      </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nemo unde adipisci dignissimos. Adipisci enim molestiae
         omnis debitis ipsum optio commodi mollitia unde eum aspernatur illum maxime, consectetur quia sint?
       </p>
-
-      <img class="hotel-img__first_rate" src="assets/svg/003-hotel.svg" alt="img">
-
     </div>
 
   </div>
